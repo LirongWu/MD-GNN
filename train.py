@@ -372,19 +372,19 @@ if __name__ == '__main__':
 
     args = parser.parse_args()
     if args.dataset == 'synthetic':
-        jsontxt = open("./Param/param_synthetic.json", 'r').read()
+        jsontxt = open("./param/param_synthetic.json", 'r').read()
         param = json.loads(jsontxt)
     elif args.dataset == 'cora':
-        jsontxt = open("./Param/param_cora.json", 'r').read()
+        jsontxt = open("./param/param_cora.json", 'r').read()
         param = json.loads(jsontxt)
     elif args.dataset == 'citeseer':
-        jsontxt = open("./Param/param_citeseer.json", 'r').read()
+        jsontxt = open("./param/param_citeseer.json", 'r').read()
         param = json.loads(jsontxt)
     elif args.dataset == 'pubmed':
-        jsontxt = open("./Param/param_pubmed.json", 'r').read()
+        jsontxt = open("./param/param_pubmed.json", 'r').read()
         param = json.loads(jsontxt)
     elif args.dataset == 'zinc':
-        jsontxt = open("./Param/param_zinc.json", 'r').read()
+        jsontxt = open("./param/param_zinc.json", 'r').read()
         param = json.loads(jsontxt)
     else:
         param = args.__dict__
