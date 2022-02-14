@@ -71,6 +71,21 @@ python utils.py
 
 
 
+If you find this file useful in your research, please consider citing:
+
+```
+@article{wu2022multi,
+  title={Multi-level disentanglement graph neural network},
+  author={Wu, Lirong and Lin, Haitao and Xia, Jun and Tan, Cheng and Li, Stan Z},
+  journal={Neural Computing and Applications},
+  pages={1--15},
+  year={2022},
+  publisher={Springer}
+}
+```
+
+
+
 ## License
 
 MD-GNN is released under the MIT license.
