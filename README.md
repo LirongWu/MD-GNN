@@ -71,7 +71,9 @@ python utils.py
 
 
 
-If you find this file useful in your research, please consider citing:
+## Citation
+
+If you find this project useful for your research, please use the following BibTeX entry.
 
 ```
 @article{wu2022multi,
@@ -83,9 +85,3 @@ If you find this file useful in your research, please consider citing:
   publisher={Springer}
 }
 ```
-
-
-
-## License
-
-MD-GNN is released under the MIT license.
